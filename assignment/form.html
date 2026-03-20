@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mission Form</title>
+</head>
+
+<body>
+<h2>Final Form</h2>
+
+<label>Country:</label>
+<select id="country">
+    <option>Select</option>
+    <option>India</option>
+    <option>USA</option>
+    <option>UK</option>
+</select>
+
+<h2 id="finalMsg"></h2>
+<br><br>
+
+<button onclick="missionComplete()">Submit</button>
+<script>
+  function missionComplete() {
+    let country = document.getElementById("country").value;
+       if (country === "India" ) {
+        document.getElementById("finalMsg").innerText = "Mission Completed!";
+    } else {
+        document.getElementById("finalMsg").innerText = "Wrong Input!";
+    }
+}
+</script>
+</body>
+</html>

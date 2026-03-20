@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 2</title>
+    <script>
+        function checkLevel2() {
+            let val = document.getElementById("levelInput").value;
+            if(val === "level2") {
+                setTimeout(function(){
+                    window.close();
+                }, 5000);
+            }
+        }
+    </script>
+</head>
+
+<body>
+<h2>Enter Level 2</h2>
+<input type="text" id="levelInput">
+<button onclick="checkLevel2()">Submit</button>
+</body>
+</html>

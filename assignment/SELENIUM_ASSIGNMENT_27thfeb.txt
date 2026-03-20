@@ -1,0 +1,14 @@
+STEP FOR SELENIUM ASSIGNMENT
+1) open the selenium-mission-game.html
+2) maximize
+3)click on start mission button enter level1 in prompt
+4) a tab opens. provide level2 as input click submit tab would close 
+   in 5 secs
+5) drag cirle to box and triangle from and to the same triangle
+6) in the frame. select INDIA as dropdown and click submit
+
+
+ALSO 
+
+on engineerdiaries/selenium page
+automate slider for 30% to 65%
